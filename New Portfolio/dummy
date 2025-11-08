@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>Marivignesh</title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="tic tac toe/x-icon" href="fav icon1.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Quintessential&display=swap" rel="stylesheet">
+<link
+      href="https://unpkg.com/aos@2.3.4/dist/aos.css"
+      rel="stylesheet"
+    />
+</head>
+<body>
+     <!-- background image-->
+    <style>
+        body{
+          background: linear-gradient(45deg, #120319, #1d0020);
+          background-attachment:fixed;
+          background-size:cover;
+        }
+    </style>
+    <section class="Homesection" id="Homesec"></section>
+    <!--heading-->
+    <div class="navcontainer" id="navcont" data-aos="fade-down">
+        <a class="navtext" href="#Homesec">Home</a>
+        <a class="navtext" href="#Aboutmedet">About</a>
+        <a class="navtext" href="#skills">Skills</a>
+        <a class="navtext" href="#projects">Projects</a>
+        <a class="navtext" href="#Contact">Contact</a>
+    </div>
+    <div class="hero-section" id="home" data-aos="fade-down">
+    <div class="mydetails">
+        <h1 class="name"><b>Hi, I'm Mari</b></h1>
+        <h2 class="developer">Software Developer</h2>
+        <p class="Introdetails">Building efficient business solutions through automation, customization, and <br>seamless user experience — combining 
+            technical expertise and functional <br>consulting to deliver scalable, business-driven ERP solutions.</p>
+        <div class="resumedownload" data-aos="zoom-in">
+            <div class="resumecontainer">
+                <a href="https://drive.google.com/file/d/1dExXSFX3hmDe39vrJPSAvS8Gmx1d40BJ/view?usp=drive_link" download>
+                    Download Resume
+                    <img src="Download icon1.png" alt="Email" class="Downloadicon">
+                </a>
+            </div>
+        <div class="iconcontainer">
+            <a href="mailto:marisankar78@gmail.com">
+                <img src="Email icon.png" alt="Email" class="email-icon">
+            </a>
+        </div>
+
+        <div class="iconcontainer">
+            <a href="https://www.linkedin.com/in/marivigne
+shwaran-m-280327233">
+                <img src="Linkedin Icon.png" alt="LinkedIn" class="email-icon">
+            </a>
+        </div>
+
+        <div class="iconcontainer">
+            <a href="https://github.com/marivigne
+shwaran">
+                <img src="github icon.png" alt="GitHub" class="github-icon">
+            </a>
+        </div>
+
+        </div>
+
+    </div>
+    <div class="image-section" data-aos="zoom-in">
+      <img src="IMG_20250606_233148_682.webp" alt="Mari" class="profile-img">
+  </div>
+</div>
+
+  <section class="Aboutme" id="Aboutmedet" data-aos="fade-right">
+    <h1 class="AboutHeading">About Me</h1>
+
+    <div class="aboutme-container">
+      <div class="aboutme-img" data-aos="flip-left">
+        <div class="img-border">
+          <img src="IMG_20250529_195553_129.webp" alt="Marivigneshwaran" />
+        </div>
+      </div>
+
+      <div class="aboutme-content" data-aos="fade-up">
+        <h3 class="Aboutname">I’m Marivigneshwaran</h3>
+        <p class="Aboutdetails">
+          Software Developer with hands-on experience in ERP customization and low-code app development. 
+          I build scalable and automated business solutions using AL, Deluge, and web technologies to 
+          streamline workflows and improve operational efficiency. In addition, I focus on web development, 
+          crafting responsive and user-friendly websites that combine clean design with strong functionality 
+          to enhance the digital presence of businesses.
+        </p>
+
+        <div class="skills">
+          <div class="skill">Zoho Creator</div>
+          <div class="skill">Business Central</div>
+          <div class="skill">Web Development</div>
+          <div class="skill">Problem Solving</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="Skillsection" id="skills" data-aos="fade-right">
+  <h1 class="skill-heading">Skills</h1>
+
+  <div class="skills-container" data-aos="fade-up">
+    <!-- Left Column -->
+    <div class="skills-column">
+      <div class="skill-box">
+        <img src="317755_badge_html_html5_achievement_award_icon.png" alt="HTML">
+          <div class="skill-text">
+        <span>HTML</span>
+        <div class="stars">★★★★★</div>
+        </div>
+      </div>
+
+      <div class="skill-box">
+        <img src="317756_badge_css_css3_achievement_award_icon.png" alt="CSS">
+          <div class="skill-text">
+        <span>CSS</span>
+        <div class="stars">★★★★☆</div>
+        </div>
+      </div>
+
+      <div class="skill-box">
+        <img src="4373213_js_logo_logos_icon.png" alt="JavaScript">
+        <div class="skill-text">
+        <span>Java Script</span>
+        <div class="stars">★★★☆☆</div>
+        </div>
+      </div>
+
+      <div class="skill-box">
+        <img src="2993661_brand_brands_logo_logos_microsoft_icon.png" alt="Business Central">
+        <div class="skill-text">
+        <span>Business Central</span>
+        <div class="stars">★★★★☆</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Column -->
+    <div class="skills-column">
+      <div class="skill-box">
+        <img src="zoho-logo-512.png" class="zohologo" alt="Zoho Creator">
+        <div class="skill-text">
+        <span>Zoho Creator</span>
+        <div class="stars">★★★★★</div>
+        </div>
+      </div>
+
+      <div class="skill-box">
+        <img src="7564187_figma_logo_brand_icon.png" alt="Web Designing">
+        <div class="skill-text">
+        <span>Web Designing</span>
+        <div class="stars">★★★★☆</div>
+        </div>
+      </div>
+
+      <div class="skill-box">
+        <img src="2799207_business_global_marketing_mindset_thinking_icon.png" alt="Problem Solving">
+        <div class="skill-text">
+        <span>Problem Solving</span>
+        <div class="stars">★★★★★</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="Projectsection" id="projects" data-aos="fade-right">
+  <h1 class="Projects-heading">Projects</h1>
+  <div class="projects-container" data-aos="zoom-in">
+    <div class="project-card" data-aos="flip-left">
+      <img src="Skylink ERP.png" alt="Skylink Project" />
+      <h3 class="project-title">Skylink ERP - Zoho Creator</h3>
+      <p class="project-desc">
+        Developed a Hospital Management System in Zoho Creator to manage
+        patient records, appointments, doctor schedules, and billing workflows,
+        improving operational efficiency and data accuracy.
+      </p>
+    </div>
+
+    <div class="project-card" data-aos="flip-left">
+      <img src="HMS SS.png" alt="HMS Project" />
+      <h3 class="project-title">Hospital Management System - Zoho creator</h3>
+      <p class="project-desc">
+        Developed a Hospital Management System in Zoho Creator to manage
+        patient records, appointments, doctor schedules, and billing workflows,
+        improving operational efficiency and data accuracy.
+      </p>
+    </div>
+
+    <div class="project-card" data-aos="flip-left">
+      <img src="BC SS.png" alt="BC Project" />
+      <h3 class="project-title">Telecom ERP Project - Buusiness Central</h3>
+      <p class="project-desc">
+        An integrated solution in Microsoft Dynamics 365 Business Central designed 
+        to manage telecom operations, including project tracking, fund management, 
+        approval workflows, and fixed asset management, ensuring streamlined processes 
+        and better financial control.
+      </p>
+    </div>
+
+    <div class="project-card" data-aos="flip-left">
+      <img src="Zenit ss.png" alt="Loan app Project" />
+      <h3 class="project-title">Loan Management App - Zoho Creator</h3>
+      <p class="project-desc">
+       A low-code application built in Zoho Creator to manage company loan details 
+       efficiently. It tracks loan requests, approvals, and repayments while automating
+       calculations for dues and schedules to ensure accurate and streamlined
+       financial management.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="Contactsection" id="Contact" data-aos="fade-right">
+  <h1 class="contact-heading">Contact</h1>
+  <div class="contactcontainer" data-aos="fade-up">
+    <form class="contact-form">
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="Enter your name">
+
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Enter your email">
+
+      <label for="message">Message</label>
+      <textarea id="message" rows="5" placeholder="Write your message"></textarea>
+
+      <button type="submit" data-aos="zoom-in">Send a message</button>
+    </form>
+  </div>
+</section>
+
+
+    <script src="js/jquery min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: true,
+      });
+    </script>
+    </body>
+</html>
+
+
+<!-- 
+
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Quintessential&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Oleo+Script&family=Quintessential&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300&family=Marck+Script&family=Oleo+Script&display=swap');
+html {
+  scroll-behavior: smooth;
+}
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 150px 180px 0 170px;
+}
+.navcontainer {
+    position: fixed;              /* Keeps it fixed while scrolling */
+    top: 0;                       /* Sticks to top of page */
+    right: 0;                     /* Aligns to right side */
+    width: 100%;                  /* Full width bar */
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    margin: 0PX;
+    padding: 10px 100px;
+    background: #120319;
+    backdrop-filter: blur(10px);      
+    z-index: 1000;                   /* Keeps it above other sections */
+    /* box-shadow: 0 0 15px rgba(179, 63, 246, 0.4); */
+    /* border-bottom: 1px solid rgba(179, 63, 246, 0.3); */
+}
+
+.navtext {
+    font-family: Inria Serif;
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.navtext:hover {
+    background: linear-gradient(135deg, #b33ff6, #e662a6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.mydetails
+{
+    /* margin: 150px 0px 0px 170px; */
+    flex: 1;
+    margin: 0;
+}
+.name
+{
+    font-family: Quintessential;
+    font-size: 90px;
+    color: #ffffff;
+    letter-spacing: 5px;
+}
+.developer {
+    font-family: Georgia, serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    font-weight: 500;
+    background: linear-gradient(135deg, #9E2BDF, #D65598);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block; /* ensures the gradient applies properly */
+}
+.Introdetails
+{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 15px 0px 0px 0px;
+    font-size: 16.5px;
+    letter-spacing: 1px;
+    /* line-height: 35px; */
+    /* font-weight: 300; */
+    color: #eaeaea;
+}
+.resumedownload {
+    margin: 55px 0 0 0px; /* Match the text's left start */
+    display: flex;
+    align-items: center;
+}
+.resumecontainer a {
+    background: linear-gradient(90deg, #b33ff6, #e662a6);
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Georgia', serif;
+    padding: 12px 26px;
+    border-radius: 50px;
+    box-shadow: 0 0 18px rgba(182, 64, 200, 0.5);
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.resumecontainer a:hover {
+    box-shadow: 0 0 25px rgba(182, 64, 200, 0.8);
+    transform: translateY(-3px);
+}
+
+.download-icon {
+    font-size: 18px;
+}
+.iconcontainer,.iconcontainer1,.iconcontainer2{
+    background: linear-gradient(90deg, #b33ff6, #e662a6);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 0 18px rgba(182, 64, 200, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    transition: all 0.3s ease;
+}
+.email-icon {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+.Downloadicon{
+    width: 28px;
+    height: 28px;
+    margin-left: 2px;
+    object-fit: contain;
+}
+.github-icon {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
+.iconcontainer:hover {
+    box-shadow: 0 0 25px rgba(182, 64, 200, 0.8);
+    transform: translateY(-3px);
+}
+.iconcontainer1:hover {
+    box-shadow: 0 0 25px rgba(182, 64, 200, 0.8);
+    transform: translateY(-3px);
+}
+.iconcontainer2:hover {
+    box-shadow: 0 0 25px rgba(182, 64, 200, 0.8);
+    transform: translateY(-3px);
+}
+.image-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 35px 0px 0px 45px;
+}
+
+.profile-img {
+  width: 380px;
+  height: 380px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 90px rgba(182, 64, 200, 0.6);
+  border: 3px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.4s ease;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 65px rgba(182, 64, 200, 0.8);
+}
+.Aboutme {
+  margin-top: 180px;
+  padding-top: 25px;
+  text-align: center;
+}
+
+.AboutHeading {
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 60px;
+}
+
+/* ---------- Layout ---------- */
+.aboutme-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 130px;
+  flex-wrap: wrap;
+  padding: 0 100px;
+}
+
+/* ---------- Image ---------- */
+.aboutme-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-border {
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #b33ff6, #d65598, #9e2bdf);
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 25px #b33ff6a6;
+}
+
+.img-border img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* ---------- Text ---------- */
+.aboutme-content {
+  max-width: 600px;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.Aboutname {
+  font-size: 38px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  background: linear-gradient(135deg, #b33ff6, #d65598);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Aboutdetails {
+  font-size: 16.5px;
+  line-height: 1.8;
+  color: #d9d4e3;
+  font-weight: 400;
+  margin: 25px 0 40px 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ---------- Skill Boxes ---------- */
+.skills {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 45px 0px 0px 0px;
+  gap: 30px 40px;
+}
+
+.skill {
+  background: rgba(98, 0, 110, 0.3);
+  border: 1.5px solid rgba(185, 93, 255, 0.5);
+  border-radius: 12px;
+  padding: 14px 30px;
+  font-size: 17px;
+  color: #d8a9ff;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: default;
+  box-shadow: 0 0 15px rgba(171, 62, 255, 0.15);
+}
+
+.skill:hover {
+  background: linear-gradient(135deg, #b33ff6, #d65598);
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 0 25px rgba(179, 63, 246, 0.6);
+}
+.Skillsection {
+  margin-top: 185px;
+  padding-top: 25px;
+  text-align: center;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.skill-heading {
+   font-size: 48px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 60px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  gap: 300px;
+  flex-wrap: wrap;
+  margin: 80px 0px 0px 0px;
+}
+
+/* Each Column */
+.skills-column {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.skill-box {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  position: relative;
+}
+
+/* Skill name + stars container */
+.skill-box .skill-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 15px;
+  position: relative;
+}
+.skill-box img {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  background: linear-gradient(135deg, #9E2BDF, #D65598);
+  padding: 3px;
+}
+
+.skill-box span {
+  font-size: 18px;
+  color: #eaeaea;
+  letter-spacing: 1px;
+  margin-bottom: 0px; /* space between text and stars */
+  margin-top: 5px;
+}
+
+/* Stars Styling */
+.stars {
+  font-size: 35px;
+  background: linear-gradient(135deg, #9E2BDF, #D65598);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: glow 2s ease-in-out infinite alternate;
+  text-align: left;
+  letter-spacing: 20px;
+}
+
+/* Keep existing glow */
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px rgba(182, 64, 200, 0.3);
+  }
+  to {
+    text-shadow: 0 0 15px rgba(214, 85, 152, 0.8);
+  }
+}
+.zohologo
+{
+  width: 20px;
+  height: 20px;
+}
+.Projectsection {
+  margin-top: 170px;
+  padding-top: 25px;
+  text-align: center;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Projects-heading {
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 80px;
+}
+
+/* Project Cards Layout */
+.projects-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
+  margin-top: 100px;
+}
+
+/* Project Card */
+.project-card {
+  background: rgba(30, 0, 40, 0.5);
+  border: 2px solid rgba(185, 93, 255, 0.3);
+  border-radius: 18px;
+  width: 300px;
+  padding: 20px;
+  text-align: left;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 15px rgba(171, 62, 255, 0.15);
+}
+
+/* Glow and lift on hover */
+.project-card:hover {
+  transform: translateY(-10px);
+  border: 2px solid transparent;
+  background: linear-gradient(145deg, rgba(50, 0, 70, 0.8), rgba(20, 0, 30, 0.6));
+  box-shadow: 0 0 25px rgba(179, 63, 246, 0.8);
+}
+
+/* Image styling */
+.project-card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 18px;
+}
+
+/* Project Title */
+.project-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  background: linear-gradient(135deg, #9E2BDF, #D65598);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Project Description */
+.project-desc {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #eaeaea;
+}
+  
+
+/* contact section code */
+.Contactsection {
+  margin-top: 180px;
+  padding-top: 25px;
+  text-align: center;
+  color: white;
+  margin-bottom: 70px;
+}
+
+.contact-heading {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+.contactcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form {
+  width: 650px;
+  padding: 40px;
+  border-radius: 15px;
+  border: 1px solid transparent;
+  background: radial-gradient(circle at center, rgba(179, 63, 246, 0.08), rgba(179, 63, 246, 0.02));
+  border-image: linear-gradient(45deg, #f60ade, #5f10f9) 1;
+  box-shadow: 0 0 25px rgba(179, 63, 246, 0.4);
+  text-align: left;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 8px;
+  color: #fff;
+  font-family: 'Georgia', serif;
+  font-size: 16px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 18px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  background: transparent;
+  color: #fff;
+  font-size: 15px;
+  outline: none;
+  border-image: linear-gradient(45deg, #490141, #260070) 1;
+  transition: all 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  box-shadow: 0 0 10px rgba(179, 63, 246, 0.8);
+}
+
+.contact-form button {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(90deg, #b33ff6, #5f10f9);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.contact-form button:hover {
+  box-shadow: 0 0 20px rgba(179, 63, 246, 0.8);
+  transform: scale(1.05);
+}
+/* =======================
+   RESPONSIVE DESIGN
+   ======================= */
+
+/* Tablet (<= 1024px) */
+@media screen and (max-width: 1024px) {
+  .hero-section {
+    flex-direction: column-reverse;
+    text-align: center;
+    margin: 120px 40px 0 40px;
+  }
+
+  .mydetails {
+    margin: 0;
+  }
+
+  .image-section {
+    margin: 40px 0 0 0;
+  }
+
+  .profile-img {
+    width: 280px;
+    height: 280px;
+  }
+
+  .navcontainer {
+    justify-content: center;
+    gap: 25px;
+    padding: 10px 30px;
+  }
+
+  .aboutme-container {
+    flex-direction: column;
+    gap: 70px;
+    padding: 0 40px;
+  }
+
+  .skills-container {
+    gap: 100px;
+  }
+
+  .projects-container {
+    gap: 40px;
+  }
+
+  .contact-form {
+    width: 80%;
+  }
+}
+
+/* Mobile (<= 768px) */
+@media screen and (max-width: 768px) {
+  .navcontainer {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+  }
+
+  .hero-section {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    margin: 100px 20px 0 20px;
+  }
+
+  .name {
+    font-size: 58px;
+    letter-spacing: 2px;
+  }
+
+  .developer {
+    font-size: 24px;
+  }
+
+  .Introdetails {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+  .Aboutme {
+    margin-top: 100px;
+    padding-top: 25px;
+    text-align: center;
+}
+.aboutme-content {
+    max-width: 600px;
+    text-align: left;
+    margin-top: 0px;
+}
+  .resumedownload {
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+    }
+
+  .iconcontainer {
+    margin-left: 0;
+  }
+
+  .profile-img {
+    width: 230px;
+    height: 230px;
+  }
+
+  .AboutHeading,
+  .skill-heading,
+  .Projects-heading,
+  .contact-heading {
+    font-size: 36px;
+  }
+
+  .Aboutdetails {
+    font-size: 15px;
+    text-align: justify;
+  }
+  .skills-column {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+}
+.Skillsection {
+    margin-top: 100px;
+    padding-top: 25px;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  .skills {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .skills-container {
+    flex-direction: column;
+    gap: 40px;
+    margin: 55px 0px 0px 0px;
+  }
+
+  .skill-box img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .skill-box span {
+    font-size: 16px;
+  }
+
+  .stars {
+    font-size: 26px;
+    letter-spacing: 10px;
+  }
+.Projectsection {
+    margin-top: 100px;
+    padding-top: 25px;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ .projects-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-top: 80px;
+}
+
+  .project-card {
+    width: 85%;
+  }
+.Contactsection {
+    margin-top: 100px;
+    padding-top: 25px;
+    text-align: center;
+    color: white;
+    margin-bottom: 70px;
+}
+  .contact-form {
+    width: 90%;
+    padding: 25px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 14px;
+  }
+
+  .contact-form button {
+    width: 100%;
+    font-size: 15px;
+  }
+}
+
+/* Small Mobile (<= 480px) */
+@media screen and (max-width: 480px) {
+  .name {
+    font-size: 46px;
+  }
+
+  .developer {
+    font-size: 20px;
+  }
+
+  .profile-img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .Introdetails {
+    font-size: 14px;
+  }
+
+  .Aboutdetails {
+    font-size: 14px;
+  }
+
+  .project-card {
+    width: 95%;
+  }
+
+  .navtext {
+    font-size: 16px;
+  }
+}
+
+-->
