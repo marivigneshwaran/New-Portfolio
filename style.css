@@ -267,15 +267,105 @@ html {
   transform: translateY(-3px);
   box-shadow: 0 0 25px rgba(179, 63, 246, 0.6);
 }
+
 .Skillsection {
-  margin-top: 185px;
-  padding-top: 25px;
+  margin-top: 150px;
+  padding-top: 28px;
   text-align: center;
   color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .skill-heading {
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 60px;
+  /* margin-top: 10px; */
+}
+
+/* .skill-subtext {
+  color: #cfcfcf;
+  width: 60%;
+  margin: 0 auto;
+  font-size: 17px;
+  line-height: 1.7;
+  opacity: 0.85;
+} */
+
+.skills-grid {
+  margin-top: 95px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 50px;
+  justify-items: center;
+  padding: 0 80px;
+}
+
+.skill-card {
+  width: 180px;
+  height: 180px;
+
+  /* Transparent Glass Background */
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  border-radius: 18px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+
+  border: 1px solid rgba(255, 255, 255, 0.15);
+
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+
+  transition: 0.3s ease;
+}
+
+
+.skill-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 0px 35px rgba(194, 89, 255, 0.4);
+  border-color: #7a59ff;
+}
+
+.skill-card img {
+  width: 65px;
+  height: 65px;
+  object-fit: contain;
+  filter: drop-shadow(0px 0px 6px rgba(255, 255, 255, 0.2));
+}
+
+.skill-card span {
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  background: linear-gradient(135deg, #de9ffe, #9062f2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* Soft Glow Text Shadow */
+  text-shadow: 0 0 8px rgba(150, 80, 255, 0.45),
+               0 0 12px rgba(215, 160, 255, 0.35);
+
+  transition: 0.3s ease;
+}
+
+
+
+/* .Skillsection {
+  margin-top: 185px;
+  padding-top: 25px;
+  text-align: center;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+/* .skill-heading {
    font-size: 48px;
   font-weight: 700;
   color: #ffffff;
@@ -288,10 +378,10 @@ html {
   gap: 300px;
   flex-wrap: wrap;
   margin: 80px 0px 0px 0px;
-}
+} */
 
 /* Each Column */
-.skills-column {
+/* .skills-column {
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -302,17 +392,17 @@ html {
   align-items: center;
   gap: 25px;
   position: relative;
-}
+} */
 
 /* Skill name + stars container */
-.skill-box .skill-text {
+/* .skill-box .skill-text {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   margin-left: 15px;
   position: relative;
-}
-.skill-box img {
+} */
+/* .skill-box img {
   width: 62px;
   height: 62px;
   border-radius: 50%;
@@ -326,11 +416,11 @@ html {
   color: #eaeaea;
   letter-spacing: 1px;
   margin-bottom: 0px; /* space between text and stars */
-  margin-top: 5px;
-}
+  /* margin-top: 5px; */
+/* }  */
 
 /* Stars Styling */
-.stars {
+/* .stars {
   font-size: 35px;
   background: linear-gradient(135deg, #9E2BDF, #D65598);
   -webkit-background-clip: text;
@@ -340,7 +430,7 @@ html {
   letter-spacing: 20px;
 }
 
-/* Keep existing glow */
+/* Keep existing glow
 @keyframes glow {
   from {
     text-shadow: 0 0 5px rgba(182, 64, 200, 0.3);
@@ -348,12 +438,12 @@ html {
   to {
     text-shadow: 0 0 15px rgba(214, 85, 152, 0.8);
   }
-}
-.zohologo
+} */
+/* .zohologo
 {
   width: 20px;
   height: 20px;
-}
+} */
 .Projectsection {
   margin-top: 170px;
   padding-top: 25px;
@@ -366,7 +456,7 @@ html {
   font-size: 48px;
   font-weight: 700;
   color: #ffffff;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 /* Project Cards Layout */
@@ -723,3 +813,53 @@ html {
     font-size: 16px;
   }
 }
+/* ---- MOBILE VIEW (max-width: 600px) ---- */
+@media (max-width: 600px) {
+
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 25px;
+    padding: 0 20px;
+    margin-top: 40px;
+  }
+
+  .skill-card {
+    width: 140px;
+    height: 140px;
+    border-radius: 14px;
+    gap: 12px;
+    backdrop-filter: blur(10px);
+  }
+
+  .skill-card img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .skill-card span {
+    font-size: 15px;
+    letter-spacing: 0.5px;
+  }
+}
+
+/* ---- VERY SMALL DEVICES (max-width: 400px) ---- */
+@media (max-width: 400px) {
+  .skills-grid {
+    gap: 20px;
+  }
+
+  .skill-card {
+    width: 120px;
+    height: 120px;
+  }
+
+  .skill-card img {
+    width: 38px;
+    height: 38px;
+  }
+
+  .skill-card span {
+    font-size: 14px;
+  }
+}
+
