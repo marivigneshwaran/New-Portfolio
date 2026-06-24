@@ -1,253 +1,439 @@
 <!DOCTYPE html>
 <html lang="en">
-    <title>Marivignesh</title>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" type="tic tac toe/x-icon" href="fav icon1.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Quintessential&display=swap" rel="stylesheet">
-<link
-      href="https://unpkg.com/aos@2.3.4/dist/aos.css"
-      rel="stylesheet"
-    />
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-</script>
-<script type="text/javascript">
-   (function(){
+  <title>Marivigneshwaran | Software Developer</title>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" href="fav icon1.png">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Marck+Script&family=Quintessential&display=swap"
+    rel="stylesheet"
+  >
+
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
       emailjs.init({
         publicKey: "l-sR5ilMJDhARTOV_",
       });
-   })();
-</script>
-<script src = "Send email.js"></script>
+    })();
+  </script>
+
+  <script src="Send email.js"></script>
 </head>
+
 <body>
-     <!-- background image-->
-    <style>
-        body{
-          background: linear-gradient(45deg, #120319, #1d0020);
-          background-attachment:fixed;
-          background-size:cover;
-        }
-    </style>
-    <section class="Homesection" id="Homesec"></section>
-    <!--heading-->
-    <div class="navcontainer" id="navcont" data-aos="fade-down">
-        <a class="navtext" href="#Homesec">Home</a>
-        <a class="navtext" href="#Aboutmedet">About</a>
-        <a class="navtext" href="#skills">Skills</a>
-        <a class="navtext" href="#projects">Projects</a>
-        <a class="navtext" href="#Contact">Contact</a>
-    </div>
-    <div class="hero-section" id="home" data-aos="fade-down">
+
+  <section class="Homesection" id="Homesec"></section>
+
+  <!-- Navbar -->
+  <header class="navcontainer" id="navcont" data-aos="fade-down">
+    <a class="brand-name" href="#Homesec">Mari</a>
+
+    <nav class="nav-links">
+      <a class="navtext" href="#Homesec">Home</a>
+      <a class="navtext" href="#Aboutmedet">About</a>
+      <a class="navtext" href="#skills">Skills</a>
+      <a class="navtext" href="#projects">Projects</a>
+      <a class="navtext" href="#Contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="home" data-aos="fade-down">
     <div class="mydetails">
-        <h1 class="name"><b>Hi, I'm Mari</b></h1>
-        <h2 class="developer">Software Developer</h2>
-        <p class="Introdetails">Building efficient business solutions through automation, customization, and <br>seamless user experience — combining 
-            technical expertise and functional <br>consulting to deliver scalable, business-driven ERP solutions.</p>
-        <div class="resumedownload" data-aos="zoom-in">
-            <div class="resumecontainer">
-                <a href="https://drive.google.com/file/d/1dExXSFX3hmDe39vrJPSAvS8Gmx1d40BJ/view?usp=drive_link" download>
-                    Download Resume
-                    <img src="Download icon1.png" alt="Email" class="Downloadicon">
-                </a>
-            </div>
-        <div class="iconcontainer">
-            <a href="mailto:marisankar78@gmail.com">
-                <img src="Email icon.png" alt="Email" class="email-icon">
-            </a>
+      <p class="hero-badge">Software Developer • ERP Customization • Business Web Apps</p>
+
+      <h1 class="name"><b>Hi, I'm Mari</b></h1>
+      <h2 class="developer">Software Developer</h2>
+
+      <p class="Introdetails">
+        I build practical business applications, ERP customizations, automation workflows,
+        analytics views, and responsive web solutions using Python, Django, Odoo, Zoho Creator,
+        Business Central, HTML, CSS, and JavaScript.
+      </p>
+
+      <div class="hero-stats">
+        <div>
+          <h3>ERP</h3>
+          <p>Customization</p>
+        </div>
+
+        <div>
+          <h3>Full Stack</h3>
+          <p>Web Apps</p>
+        </div>
+
+        <div>
+          <h3>Analytics</h3>
+          <p>Business Insights</p>
+        </div>
+      </div>
+
+      <div class="resumedownload" data-aos="zoom-in">
+        <div class="resumecontainer">
+          <a href="https://drive.google.com/file/d/1dExXSFX3hmDe39vrJPSAvS8Gmx1d40BJ/view?usp=drive_link" target="_blank">
+            Download Resume
+            <img src="Download icon1.png" alt="Download" class="Downloadicon">
+          </a>
         </div>
 
         <div class="iconcontainer">
-            <a href="https://www.linkedin.com/in/marivigne
-shwaran-m-280327233">
-                <img src="Linkedin Icon.png" alt="LinkedIn" class="email-icon">
-            </a>
+          <a href="mailto:marisankar78@gmail.com">
+            <img src="Email icon.png" alt="Email" class="email-icon">
+          </a>
         </div>
 
         <div class="iconcontainer">
-            <a href="https://github.com/marivigne
-shwaran">
-                <img src="github icon.png" alt="GitHub" class="github-icon">
-            </a>
+          <a href="https://www.linkedin.com/in/marivigneshwaran-m-280327233" target="_blank">
+            <img src="Linkedin Icon.png" alt="LinkedIn" class="email-icon">
+          </a>
         </div>
 
+        <div class="iconcontainer">
+          <a href="https://github.com/marivigneshwaran" target="_blank">
+            <img src="github icon.png" alt="GitHub" class="github-icon">
+          </a>
         </div>
-
+      </div>
     </div>
-    <div class="image-section" data-aos="zoom-in">
-      <img src="mypic1.jpg.jpg" alt="Mari" class="profile-img">
-  </div>
-</div>
 
+    <div class="image-section" data-aos="zoom-in">
+      <div class="profile-ring">
+        <img src="mypic1.jpg.jpg" alt="Mari" class="profile-img">
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
   <section class="Aboutme" id="Aboutmedet" data-aos="fade-right">
-    <h1 class="AboutHeading">About Me</h1>
+    <p class="section-tag">About Me</p>
+    <h1 class="AboutHeading">Building Practical Business Solutions</h1>
 
     <div class="aboutme-container">
       <div class="aboutme-img" data-aos="flip-left">
         <div class="img-border">
-          <img src="IMG_20250606_233148_682.webp" alt="Marivigneshwaran" />
+          <img src="IMG_20250606_233148_682.webp" alt="Marivigneshwaran">
         </div>
       </div>
 
       <div class="aboutme-content" data-aos="fade-up">
         <h3 class="Aboutname">I’m Marivigneshwaran</h3>
+
         <p class="Aboutdetails">
-          Software Developer with hands-on experience in ERP customization and low-code app development. 
-          I build scalable and automated business solutions using AL, Deluge, and web technologies to 
-          streamline workflows and improve operational efficiency. In addition, I focus on web development, 
-          crafting responsive and user-friendly websites that combine clean design with strong functionality 
-          to enhance the digital presence of businesses.
+          Software Developer with hands-on experience in ERP customization, low-code development,
+          business automation, analytics dashboard development, and full-stack web applications.
+          I focus on creating clean, scalable, and user-friendly systems that help businesses manage
+          operations, records, reports, approvals, billing, and workflows more efficiently.
         </p>
 
         <div class="skills">
-          <div class="skill">Zoho Creator</div>
-          <div class="skill">Business Central</div>
-          <div class="skill">Web Development</div>
-          <div class="skill">Python</div>
+          <div class="skill">ERP Customization</div>
+          <div class="skill">Django Web Apps</div>
+          <div class="skill">Odoo Development</div>
+          <div class="skill">Business Automation</div>
         </div>
       </div>
     </div>
   </section>
+
+  <!-- Skills Section -->
   <section class="Skillsection" id="skills" data-aos="fade-right">
-  <h1 class="skill-heading">Skills</h1>
+    <p class="section-tag">Technical Stack</p>
+    <h1 class="skill-heading">Skills</h1>
 
-  <!-- <p class="skill-subtext">
-    What I do
-  </p> -->
+    <div class="skills-grid" data-aos="zoom-in">
+      <div class="skill-card">
+        <img src="317755_badge_html_html5_achievement_award_icon.png" alt="HTML">
+        <span>HTML</span>
+      </div>
 
-  <div class="skills-grid" data-aos="zoom-in">
+      <div class="skill-card">
+        <img src="317756_badge_css_css3_achievement_award_icon.png" alt="CSS">
+        <span>CSS</span>
+      </div>
 
-    <!-- Skill Card -->
-    <div class="skill-card">
-      <img src="317755_badge_html_html5_achievement_award_icon.png" alt="HTML">
-      <span>HTML</span>
+      <div class="skill-card">
+        <img src="4373213_js_logo_logos_icon.png" alt="JavaScript">
+        <span>JavaScript</span>
+      </div>
+
+      <div class="skill-card">
+        <img src="python.png" alt="Python">
+        <span>Python</span>
+      </div>
+
+      <div class="skill-card">
+        <img src="django.png" alt="Django">
+        <span>Django</span>
+      </div>
+
+      <div class="skill-card">
+        <img src="odoo.png" alt="Odoo">
+        <span>Odoo</span>
+      </div>
+
+      <div class="skill-card">
+        <img src="postgresql.png" alt="PostgreSQL">
+        <span>PostgreSQL</span>
+      </div>
+
+      <div class="skill-card">
+        <img src="business-central-logo-3.png" alt="Business Central">
+        <span>Business Central</span>
+      </div>
+
+      <div class="skill-card">
+        <img src="zoho-logos-512px.png" alt="Zoho Creator">
+        <span>Zoho Creator</span>
+      </div>
+
+      <div class="skill-card">
+        <img src="7564187_figma_logo_brand_icon.png" alt="UI Design">
+        <span>UI Design</span>
+      </div>
     </div>
+  </section>
 
-    <div class="skill-card">
-      <img src="317756_badge_css_css3_achievement_award_icon.png" alt="CSS">
-      <span>CSS</span>
+  <!-- Projects Section -->
+  <section class="Projectsection" id="projects" data-aos="fade-right">
+    <p class="section-tag">Selected Work</p>
+    <h1 class="Projects-heading">Projects</h1>
+
+    <div class="projects-container" data-aos="zoom-in">
+
+      <!-- BikeMart -->
+      <div class="project-card" data-aos="flip-left">
+        <div class="project-image-wrap">
+          <img src="bikemart-preview.png" alt="BikeMart Web Application">
+          <span class="project-status">Full Stack</span>
+        </div>
+
+        <h3 class="project-title">BikeMart — Second-Hand Bike Shop Web Application</h3>
+
+        <p class="project-desc">
+          A complete Django-based business management system for second-hand bike showrooms.
+          It includes a public website, custom admin panel, inventory, customer, vendor,
+          employee, billing, finance, audit log, and analytics modules.
+        </p>
+
+        <div class="project-features">
+          <span>Django</span>
+          <span>Python</span>
+          <span>PostgreSQL</span>
+          <span>Cloudinary</span>
+          <span>JWT Auth</span>
+          <span>Render</span>
+        </div>
+
+        <ul class="project-points">
+          <li>Built public pages for available bikes, sold bikes, bike details, contact, and testimonials.</li>
+          <li>Developed admin features for bikes, customers, vendors, employees, bills, users, and shop settings.</li>
+          <li>Added finance EMI calculation, audit logs, media uploads, filters, and deployment setup.</li>
+        </ul>
+
+        <div class="project-actions">
+          <a href="https://bike-mart.onrender.com" target="_blank">Live Website</a>
+        </div>
+      </div>
+
+      <!-- Project Track -->
+      <div class="project-card" data-aos="flip-left">
+        <div class="project-image-wrap">
+          <img src="project-track-preview.png" alt="Project Track Dashboard">
+          <span class="project-status">Django</span>
+        </div>
+
+        <h3 class="project-title">Project Track — Project & Employee Tracking System</h3>
+
+        <p class="project-desc">
+          A project tracking dashboard designed to manage project details, employees,
+          task status, subtasks, customers, timelines, work progress, and team activity
+          from a centralized workspace.
+        </p>
+
+        <div class="project-features">
+          <span>Project Tracking</span>
+          <span>Employees</span>
+          <span>Tasks</span>
+          <span>Subtasks</span>
+          <span>Timeline</span>
+          <span>Analytics</span>
+        </div>
+
+        <ul class="project-points">
+          <li>Designed analytics cards for projects, tasks, subtasks, customers, team, and time logs.</li>
+          <li>Added status charts for project progress, task priority, customer status, and billing status.</li>
+          <li>Improved visibility of employee activity, project timelines, and overall work progress.</li>
+        </ul>
+      </div>
+
+      <!-- Skylink ERP -->
+      <div class="project-card" data-aos="flip-left">
+        <div class="project-image-wrap">
+          <img src="Skylink ERP.png" alt="Skylink ERP Project">
+          <span class="project-status">ERP</span>
+        </div>
+
+        <h3 class="project-title">Skylink ERP — Zoho Creator</h3>
+
+        <p class="project-desc">
+          A business ERP application developed in Zoho Creator to manage daily operations,
+          business records, approval workflows, reports, and process automation from one
+          organized platform.
+        </p>
+
+        <div class="project-features">
+          <span>Zoho Creator</span>
+          <span>Deluge</span>
+          <span>Workflow</span>
+          <span>Reports</span>
+          <span>Automation</span>
+        </div>
+
+        <ul class="project-points">
+          <li>Created custom forms and reports to manage business records efficiently.</li>
+          <li>Automated approval flows and operational processes using Deluge scripting.</li>
+          <li>Improved data organization, visibility, and day-to-day business tracking.</li>
+        </ul>
+      </div>
+
+      <!-- Hospital Management -->
+      <div class="project-card" data-aos="flip-left">
+        <div class="project-image-wrap">
+          <img src="HMS SS.png" alt="Hospital Management System">
+          <span class="project-status">ERP</span>
+        </div>
+
+        <h3 class="project-title">Hospital Management System — Zoho Creator</h3>
+
+        <p class="project-desc">
+          A hospital management application built to handle patient records, appointments,
+          doctor schedules, billing workflows, and reports in a structured and user-friendly
+          way.
+        </p>
+
+        <div class="project-features">
+          <span>Zoho Creator</span>
+          <span>Deluge</span>
+          <span>Forms</span>
+          <span>Reports</span>
+          <span>Billing</span>
+        </div>
+
+        <ul class="project-points">
+          <li>Managed patient details, appointment records, doctor schedules, and billing data.</li>
+          <li>Created reports for faster access to hospital records and operational information.</li>
+          <li>Reduced manual tracking by organizing key hospital workflows in one system.</li>
+        </ul>
+      </div>
+
+      <!-- Business Central -->
+      <div class="project-card" data-aos="flip-left">
+        <div class="project-image-wrap">
+          <img src="BC SS.png" alt="Telecom ERP Project">
+          <span class="project-status">Business Central</span>
+        </div>
+
+        <h3 class="project-title">Telecom ERP Project — Business Central</h3>
+
+        <p class="project-desc">
+          An integrated Microsoft Dynamics 365 Business Central solution designed to manage
+          telecom operations, project tracking, fund management, approval workflows, and
+          fixed asset management.
+        </p>
+
+        <div class="project-features">
+          <span>Business Central</span>
+          <span>AL</span>
+          <span>ERP</span>
+          <span>Approval Flow</span>
+          <span>Reports</span>
+        </div>
+
+        <ul class="project-points">
+          <li>Customized Business Central pages, fields, tables, and business process flows.</li>
+          <li>Worked on approval workflows, fund tracking, and project-related ERP processes.</li>
+          <li>Supported better financial control through structured data and reporting.</li>
+        </ul>
+      </div>
+
+      <!-- Loan Management -->
+      <div class="project-card" data-aos="flip-left">
+        <div class="project-image-wrap">
+          <img src="Zenit ss.png" alt="Loan Management App">
+          <span class="project-status">Finance</span>
+        </div>
+
+        <h3 class="project-title">Loan Management App — Zoho Creator</h3>
+
+        <p class="project-desc">
+          A finance-focused low-code application built in Zoho Creator to manage company
+          loan requests, approvals, repayments, due calculations, schedules, and financial
+          tracking.
+        </p>
+
+        <div class="project-features">
+          <span>Zoho Creator</span>
+          <span>Deluge</span>
+          <span>Finance</span>
+          <span>Automation</span>
+          <span>Reports</span>
+        </div>
+
+        <ul class="project-points">
+          <li>Created loan request, approval, repayment, and tracking modules.</li>
+          <li>Automated due calculations and repayment schedule handling.</li>
+          <li>Improved finance record management through custom reports and workflows.</li>
+        </ul>
+      </div>
+
     </div>
+  </section>
 
-    <div class="skill-card">
-      <img src="4373213_js_logo_logos_icon.png" alt="JavaScript">
-      <span>JavaScript</span>
+  <!-- Contact Section -->
+  <section class="Contactsection" id="Contact" data-aos="zoom-in">
+    <p class="section-tag">Get In Touch</p>
+    <h1 class="contact-heading">Contact</h1>
+
+    <div class="contactcontainer" data-aos="fade-up">
+      <form class="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your name">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email">
+
+        <label for="message">Message</label>
+        <textarea id="message" rows="5" placeholder="Write your message"></textarea>
+
+        <button type="submit" onclick="sendmail()">Send a message</button>
+      </form>
     </div>
+  </section>
 
-    <div class="skill-card">
-      <img src="business-central-logo-3.png" alt="Business Central">
-      <span>Business Central</span>
-    </div>
+  <script src="js/jquery min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 
-    <div class="skill-card">
-      <img src="zoho-logos-512px.png" alt="Zoho Creator">
-      <span>Zoho Creator</span>
-    </div>
+  <script>
+    AOS.init({
+      duration: 900,
+      once: true,
+    });
+  </script>
 
-    <div class="skill-card">
-      <img src="7564187_figma_logo_brand_icon.png" alt="Web Designing">
-      <span>Web Designing</span>
-    </div>
-
-    <div class="skill-card">
-      <img src="python.jpg" alt="Python">
-      <span>Python</span>
-    </div>
-
-    <div class="skill-card">
-      <img src="2799207_business_global_marketing_mindset_thinking_icon.png" alt="Problem Solving">
-      <span>Problem Solving</span>
-    </div>
-
-  </div>
-</section>
-
-
-<section class="Projectsection" id="projects" data-aos="fade-right">
-  <h1 class="Projects-heading">Projects</h1>
-  <div class="projects-container" data-aos="zoom-in">
-    <div class="project-card" data-aos="flip-left">
-      <img src="Skylink ERP.png" alt="Skylink Project" />
-      <h3 class="project-title">Skylink ERP - Zoho Creator</h3>
-      <p class="project-desc">
-        Developed a Hospital Management System in Zoho Creator to manage
-        patient records, appointments, doctor schedules, and billing workflows,
-        improving operational efficiency and data accuracy.
-      </p>
-    </div>
-
-    <div class="project-card" data-aos="flip-left">
-      <img src="HMS SS.png" alt="HMS Project" />
-      <h3 class="project-title">Hospital Management System - Zoho creator</h3>
-      <p class="project-desc">
-        Developed a Hospital Management System in Zoho Creator to manage
-        patient records, appointments, doctor schedules, and billing workflows,
-        improving operational efficiency and data accuracy.
-      </p>
-    </div>
-
-    <div class="project-card" data-aos="flip-left">
-      <img src="BC SS.png" alt="BC Project" />
-      <h3 class="project-title">Telecom ERP Project - Buusiness Central</h3>
-      <p class="project-desc">
-        An integrated solution in Microsoft Dynamics 365 Business Central designed 
-        to manage telecom operations, including project tracking, fund management, 
-        approval workflows, and fixed asset management, ensuring streamlined processes 
-        and better financial control.
-      </p>
-    </div>
-
-    <div class="project-card" data-aos="flip-left">
-      <img src="Zenit ss.png" alt="Loan app Project" />
-      <h3 class="project-title">Loan Management App - Zoho Creator</h3>
-      <p class="project-desc">
-       A low-code application built in Zoho Creator to manage company loan details 
-       efficiently. It tracks loan requests, approvals, and repayments while automating
-       calculations for dues and schedules to ensure accurate and streamlined
-       financial management.
-      </p>
-    </div>
-  </div>
-</section>
-
-<section class="Contactsection" id="Contact" data-aos="zoom-in">
-  <h1 class="contact-heading">Contact</h1>
-  <div class="contactcontainer" data-aos="fade-up">
-    <form class="contact-form">
-      <label for="name">Name</label>
-      <input type="text" id="name" placeholder="Enter your name">
-
-      <label for="email">Email</label>
-      <input type="email" id="email" placeholder="Enter your email">
-
-      <label for="message">Message</label>
-      <textarea id="message" rows="5" placeholder="Write your message"></textarea>
-
-      <button type="submit" onclick="sendmail()" data-aos="zoom-in">Send a message</button>
-    </form>
-  </div>
-</section>
-
-
-    <script src="js/jquery min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-    <script>
-      AOS.init({
-        duration: 1000,
-        once: true,
-      });
-    </script>
-    
-    </body>
+</body>
 </html>
-
-
-
